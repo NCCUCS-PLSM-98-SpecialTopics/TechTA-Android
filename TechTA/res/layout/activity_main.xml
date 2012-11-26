@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/hello_world"
+        tools:context=".MainActivity" />
+
+    <TextView
+        android:id="@+id/text_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentLeft="true"        
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/account" />
+
+    <EditText
+        android:id="@+id/account"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/text_account"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/acc_hint" />
+    
+    <TextView
+        android:id="@+id/text_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/password" />
+    
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/text_pass"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/acc_hint" />
+    
+    <Button android:id="@+id/btn_send" 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/password"
+		android:layout_marginTop="50dp"
+		android:layout_centerHorizontal="true" 
+		android:text="@string/btn_text"
+		></Button>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, FragmentTabsActivity!</string>
+    <string name="app_name">TechTA</string>
+    <string name="question">請輸入問題</string>
+    <string name="btn_text">Login</string>
+    <string name="password">Password</string>
+    <string name="acc_hint">請輸入帳號</string>
+    <string name="account">Account</string>
+    <string name="hello_world">TechTA</string>
+    <string name="btn_send">送出</string>
+    <string name="btn_back">上一頁</string>
+
+</resources>
